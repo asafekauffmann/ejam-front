@@ -15,11 +15,12 @@ module.exports = {
       'gray-dark': '#273444',
       'gray': '#8492a6',
       'gray-light': '#d3dce6',
-
-
+      'green-light': '#5BB59A',
+      'red': '#F82C2C',
       'purple': '#7e5bef',
       'pink': '#ff49db',
       'orange': '#ff7849',
+      'ice': '#FAFAFA',
 
       'yellow': '#ffc82c',
 

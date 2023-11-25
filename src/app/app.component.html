@@ -1,202 +1,25 @@
-<!-- Sticky -->
-<div class="flex flex-row justify-around items-center bg-blue h-12 w-full text-white ">
-  <div class="flex items-center gap-2">
-    <img src="../assets/images/icon-tab-1.svg" class="h-5 w-5" alt="right-icon"/>
-    <p class="text-xs font-medium">
-      30-DAY SATISFACTION GUARANTEE
-    </p>
-  </div>
-
-  <div class="flex items-center gap-2">
-    <img src="../assets/images/icon-tab-2.svg" class="h-5 w-5" alt="right-icon"/>
-    <p class="text-xs font-medium">
-      Free delivery on orders over $40.00
-    </p>
-  </div>
-
-  <div class="flex items-center gap-2">
-    <img src="../assets/images/icon-tab-3.svg" class="h-5 w-5" alt="right-icon"/>
-    <p class="text-xs font-medium">
-      50.000+ HAPPY CUSTOMERS
-    </p>
-  </div>
-
-  <div class="flex items-center gap-2">
-    <img src="../assets/images/icon-tab-4.svg" class="h-5 w-5" alt="right-icon"/>
-    <p class="text-xs font-medium ">
-      100% Money Back Guarantee
-    </p>
-  </div>
-</div>
-
-
 <!-- Header -->
-<div class="flex justify-center ">
-
-  <div class="flex flex-row justify-between items-center h-20 w-full lg:w-[1245px] mt-30 mx-5">
-    <div>
-      <img src="../assets/images/clarifion-logo.svg" class="h-9" alt="image"/>
-    </div>
-
-    <div class="flex gap-8">
-      <img src="../assets/images/mcafee-logo.svg" class="h-8" alt="image"/>
-      <img src="../assets/images/norton-logo.svg" class="h-8" alt="image"/>
-    </div>
-  </div>
-
-</div>
-
-
+<app-header></app-header>
 
 <!-- First div text -->
 <div class="flex flex-col justify-center items-center text-center">
   <h1 class="text-5xl font-normal mb-6">Wait ! your order in progress.</h1>
-  <p class="text-2xl font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-
+  <p class="text-2xl font-normal">
+    Lorem ipsum dolor sit amet, consectetur adipiscing
+  </p>
 </div>
-
 
 <!-- Second -->
-<div class="mt-14 w-full">
-  <div class="flex flex-row md:justify-center items-center h-full gap-6 lg:gap-6 2xl:gap-24">
-
-    <div class="flex flex-col lg:flex-row gap-2 md:gap-5 items-center min-w-[97px]">
-      <img src="../assets/images/right-icon.svg" class="h-10 w-10" alt="right-icon"/>
-      <p class="text-xl font-normal text-center">
-        Step 1: Cart Review
-      </p>
-    </div>
-
-    <div class="flex flex-col lg:flex-row gap-2 md:gap-5 items-center">
-      <img src="../assets/images/right-icon.svg" class="h-10 w-10" alt="right-icon"/>
-      <p class="text-xl font-normal text-center">
-        Step 2: Checkout
-      </p>
-    </div>
-
-    <div class="flex flex-col lg:flex-row gap-2 md:gap-5 items-center max-w-64">
-      <img src="../assets/images/3-step-icon.svg" class="h-10 w-10" alt="right-icon"/>
-      <p class="text-xl font-normal text-center">
-        Step 3: Special Offer
-      </p>
-    </div>
-
-    <div class="flex flex-col lg:flex-row gap-2 md:gap-5 items-center max-w-64">
-      <img src="../assets/images/four-step-icon.svg" class="h-10 w-10" alt="right-icon"/>
-      <p class="text-xl font-normal text-center">
-        Step 4: Confirmation
-      </p>
-    </div>
-  </div>
-</div>
-
+<app-steps></app-steps>
 
 <!-- third -->
-<div class="flex justify-center items-center w-full mt-10 h-full py-10 ">
-  <div class="flex h-full w-full mx-5 lg:mx-32 bg-white lg:w-[1245px]">
 
-    <div class=" w-full hidden lg:block p-5">
-      <img src="../assets/images/img-product.png" class="h-[591px]" alt="image-product"/>
-    </div>
+<!-- TEXT - Product -->
+<app-product></app-product>
 
-
-
-    <div class=" w-full p-5 ">
-      <h1 class="text-3xl max-w-[500px] mb-8">
-        <span class="text-blue-light">ONE TIME ONLY</span>
-         special price for 6 extra Clarifion for only <span class="text-blue-light">$14 Each</span>
-        ($84.00 total!)
-      </h1>
-
-
-      <div class="flex flex-col h-[134px] my-8">
-
-        <div class="flex flex-row">
-
-          <div class="flex justify-center items-center bg-blue-light rounded-lg">
-
-            <div class="h-20 w-20 md:h-[134px] md:w-[134px]">
-              <img src="../assets/images/product-mini-img.png" alt="mini-image-photo"/>
-            </div>
-
-          </div>
-
-          <div class="flex flex-col items-center w-96 ml-4">
-
-            <div class="flex justify-between w-full md:w-96 mb-3">
-              <span>
-                <p class="text-xl font-medium"> Clarifion Air Ionizer</p>
-              </span>
-              <span>
-                <p> $180 $84</p>
-              </span>
-            </div>
-
-            <div class="flex flex-row w-full mb-3">
-              <img src="../assets/images/star.svg" class="h-4 w-4" alt="stars"/>
-              <img src="../assets/images/star.svg" class="h-4 w-4" alt="stars"/>
-              <img src="../assets/images/star.svg" class="h-4 w-4" alt="stars"/>
-              <img src="../assets/images/star.svg" class="h-4 w-4" alt="stars"/>
-              <img src="../assets/images/star.svg" class="h-4 w-4" alt="stars"/>
-            </div>
-
-            <div class="flex flex-row items-center w-full mb-3 gap-4">
-              <img src="../assets/images/status.svg" class="h-4 w-4" alt="status"/>
-              <p class="text-base">12 left in Stock</p>
-            </div>
-
-            <div class="">
-              <p class="text-base font-normal">Simply plug a Clarifion into any standard outlet and replace bulky, expensive air purifiers with a simple.</p>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-
-      <!-- Rights -->
-      <div class="mb-8">
-        <div class="flex gap-3 mb-4">
-          <img src="../assets/images/right-blue.svg" class="h-6 w-6" alt="mini-image-photo"/>
-          <p class="text-base">Negative Ion Technology may <span class="font-bold">help with allergens</span></p>
-        </div>
-
-        <div class="flex gap-3 mb-4">
-          <img src="../assets/images/right-blue.svg" class="h-6 w-6" alt="mini-image-photo"/>
-          <p class="text-base">Designed for <span class="font-bold">air rejuvenation</span></p>
-        </div>
-
-        <div class="flex gap-3 mb-4">
-          <img src="../assets/images/right-blue.svg" class="h-6 w-6" alt="mini-image-photo"/>
-          <p class="text-base"> <span class="font-bold">Perfect for every room</span> in all types of places.</p>
-        </div>
-      </div>
-
-      <div class="my-8">
-        <div class="flex flex-row items-center justify-start bg-blue-lightness w-full h-14 rounded-xl gap-4">
-          <img src="../assets/images/percent2.svg" class="h-8 w-8 ml-4" alt="percent"/>
-          <p>
-            Save
-            <span class="text-blue-light"> 53%</span>
-             and get
-             <span class="text-blue-light">6 extra Clarifision</span>
-             for only
-             <span class="text-blue-light">$14 Each</span>
-             .
-          </p>
-        </div>
-      </div>
-
-
-    </div>
-  </div>
-
-
+<!-- FOOTER -->
+<div class="w-full">
+  <app-footer></app-footer>
 </div>
-
-
-
-<p class="text-blue-light font-extrabold text-3xl">red</p>
-
 
 <router-outlet></router-outlet>
